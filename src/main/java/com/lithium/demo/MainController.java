@@ -1,11 +1,10 @@
 package com.lithium.demo;
 
 import com.lithium.demo.services.Cat;
+import com.lithium.demo.useCases.EnlistCats;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import useCases.EnlistCats;
 
 @RestController
 public class MainController {

@@ -1,4 +1,4 @@
-package useCases;
+package com.lithium.demo.useCases;
 
 import com.lithium.demo.services.Cat;
 import com.lithium.demo.services.CatService;

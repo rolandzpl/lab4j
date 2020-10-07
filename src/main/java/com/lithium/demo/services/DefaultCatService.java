@@ -4,7 +4,7 @@ public class DefaultCatService implements CatService {
 
     @Override
     public Cat[] getCats() {
-        return new Cat[0];
+        return new Cat[] { new Cat("Garry") };
     }
 
     @Override
